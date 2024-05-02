@@ -7,7 +7,8 @@ pipeline {
                 echo 'Building MVN...'
             }
         }
-        stage('Unit and Integration Tests') {
+        stage('Unit and Integration Tests') 
+        {
             steps {
                 echo '--- Running unit and integration tests ---'
                 echo 'Running Maven tests...'
@@ -79,7 +80,7 @@ pipeline {
     }
     post {
         success {
-            echo '--- Pipeline Successful ---'
+            echo '--- Pipeline Successful (Finally) ---'
         }
         failure {
             echo '--- Pipeline Failed ---'
