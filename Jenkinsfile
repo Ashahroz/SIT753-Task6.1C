@@ -80,7 +80,7 @@ pipeline {
     }
     post {
         success {
-            echo '--- Pipeline Successful ---'
+            echo '--- Pipeline Successful message---'
         }
         failure {
             echo '--- Pipeline Failed ---'
