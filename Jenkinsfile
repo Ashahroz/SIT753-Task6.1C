@@ -83,7 +83,7 @@ pipeline {
             echo '--- Pipeline Successful ---'
         }
         failure {
-            echo '--- Pipeline Failed jenkins ---'
+            echo '--- Pipeline Failed ---'
         }
     }
 }
